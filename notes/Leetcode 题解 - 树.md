@@ -40,6 +40,15 @@
 <!-- GFM-TOC -->
 
 
+
+A full binary tree is a binary tree in which every node other than the leaves has two children. 
+
+A perfect binary tree is a full binary tree in which all leaves are at the same depth, and in which every parent has two children. 
+
+A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible. (This terminology is not universal, e.g., some authors use complete binary tree where we write perfect binary tree.) 
+
+It is straightforward to prove using induction that the number of nonleaf nodes in a full binary tree is one less than the number of leaves. A perfect binary tree of height h contains exactly 2h+1 − 1 nodes, of which 2h are leaves. A complete binary tree on n nodes has height ⌊log n⌋. A left-skewed tree is a tree in which no node has a right child; a right-skewed tree is a tree in which no node has a left child. In either case, we refer to the binary tree as being skewed.
+
 ## 递归
 
 一棵树要么是空树，要么有两个指针，每个指针指向一棵树。树是一种递归结构，很多树的问题可以使用递归来处理。
